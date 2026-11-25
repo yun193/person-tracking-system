@@ -1,0 +1,16 @@
+{
+  "lost_frames": 30,
+  "exit_frames": 5,
+  "line_margin_px": 10,
+  "line_confirm_frames": 2,
+  "zones": [
+    {
+      "name": "NO-ENTRY",
+      "polygon": [[0, 245], [330, 315], [520, 420], [560, 580], [0, 580]],
+      "loiter_sec": 5
+    }
+  ],
+  "lines": [
+    { "name": "GATE", "a": [400, 170], "b": [470, 340] }
+  ]
+}

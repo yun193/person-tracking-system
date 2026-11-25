@@ -1,0 +1,16 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated outputs (videos, logs, snapshots)
+outputs/
+
+# Local tooling & OS files
+.claude/
+.DS_Store
+Thumbs.db
